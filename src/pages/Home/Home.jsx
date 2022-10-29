@@ -36,13 +36,13 @@ const Home = () => {
         {/* <!-- Footer-Links section --> */}
         <section class="links homepage-footer-links">
           <div>
-            <BsGithub />
+            <BsGithub className="footer-link" />
           </div>
           <div>
-            <AiOutlineMail />
+            <AiOutlineMail className="footer-link" />
           </div>
           <div>
-            <BsTwitter />
+            <BsTwitter className="footer-link" />
           </div>
         </section>
       </div>
