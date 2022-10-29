@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import { BsGithub, BsTwitter } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+
 import "./Home.css";
 
 const Home = () => {
@@ -16,15 +20,15 @@ const Home = () => {
           <ul class="homepage-links">
             <div>
               <li>
-                <a href="./about.html">about</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="./projects.html">projects</a>
+                <Link to="/projects">Projects</Link>
               </li>
             </div>
             <div>
               <li>
-                <a href="#">resume</a>
+                <Link to="/resume">Resume</Link>
               </li>
             </div>
           </ul>
@@ -32,13 +36,13 @@ const Home = () => {
         {/* <!-- Footer-Links section --> */}
         <section class="links homepage-footer-links">
           <div>
-            <i class="fa-brands fa-github"></i>
+            <BsGithub />
           </div>
           <div>
-            <i class="fa-regular fa-envelope"></i>
+            <AiOutlineMail />
           </div>
           <div>
-            <i class="fa-brands fa-twitter"></i>
+            <BsTwitter />
           </div>
         </section>
       </div>
