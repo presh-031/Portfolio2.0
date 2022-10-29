@@ -1,3 +1,5 @@
+import "./Home.css";
+
 const Home = () => {
   return (
     <>
@@ -44,7 +46,7 @@ const Home = () => {
       <footer class="main-footer">
         <p>
           Inspired by{" "}
-          <a href="https://www.rlmoser.com" target="_blank">
+          <a href="https://www.rlmoser.com" target="_blank" rel="noreferrer">
             Rachel Moser
           </a>{" "}
           - with permission.

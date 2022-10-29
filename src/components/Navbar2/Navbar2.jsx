@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import "./Navbar2.css";
 const Navbar2 = () => {
   return (
@@ -16,19 +18,19 @@ const Navbar2 = () => {
             </div>
             <div class="menu-items">
               <li>
-                <a href="/">Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a href="./about.html">about</a>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <a href="./projects.html">projects</a>
+                <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                <a href="#">resume</a>
+                <NavLink to="/resume">Resume</NavLink>
               </li>
               <li>
-                <a href="./contact.html">contact</a>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </div>
           </div>

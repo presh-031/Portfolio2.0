@@ -14,15 +14,9 @@
   box-sizing: border-box;
 }
 
-/* //Mobile-first styles */
 html {
   font-size: 62.5%;
-  /* // color: $light;
-  // footer support
-  // position: relative;
-  // min-height: 100%;
-  // border: 10px solid red; */
 }
 body {
-  color: var(--light);
+  /* color: var(--light); */
 }

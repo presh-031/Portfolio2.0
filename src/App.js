@@ -13,6 +13,10 @@ function App() {
         <Navbar2 />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<Home />}></Route>
+          <Route path="/projects" element={<Home />}></Route>
+          <Route path="/resume" element={<Home />}></Route>
+          <Route path="/contact" element={<Home />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

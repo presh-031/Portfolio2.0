@@ -1,0 +1,111 @@
+.home-page {
+  background-color: #333;
+  /* // footer-support */
+  /* // margin-bottom: 100px; */
+}
+.overall {
+  /* // Main-section */
+  height: calc(100vh - 62px);
+  /* // outline: 1px solid red; */
+  padding-top: 2rem;
+  /* // position: relative; */
+}
+.hello {
+  text-align: center;
+  margin-top: 5rem;
+}
+.intro {
+  /* // outline: 1px solid red; */
+  padding-left: 2rem;
+  list-style-type: square;
+  /* // margin-top: 2rem; */
+}
+.intro::marker {
+  font-size: 1.5rem;
+}
+.intro__name {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+.intro__role {
+  font-size: 1.5rem;
+}
+
+.homepage-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  column-gap: 2rem;
+  font-size: 0.8rem;
+  list-style-type: none;
+  outline: 1px solid red;
+}
+.homepage-links div:first-of-type {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+.homepage-links div:last-of-type {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-links div li a {
+  color: inherit;
+  font-size: 2rem;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+/* // Footer */
+.main-footer {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  /* // outline: 1px solid red; */
+  bottom: 0;
+  /* // footer support */
+  /* // position: relative; */
+  /* // bottom: 0; */
+  /* // left: 0; */
+} /* // width: 100%; */
+.main-footer a {
+  color: inherit;
+}
+
+/* // Footer-Links section */
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  /* // outline: 1px solid blue; */
+  background-color: #ddd;
+  padding: 1rem 0;
+  /* // outline: 1px solid red; */
+  /* // position: absolute; */
+  /* // width: 100%; */
+  /* // bottom: 0; */
+}
+.links div {
+  /* // outline: 1px solid red; */
+  background-color: #333;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 1.5rem;
+  cursor: pointer;
+  color: #ddd;
+}
+.fa-brands,
+.fa-regular {
+  font-size: 50px;
+}
+
+.homepage-footer-links {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
