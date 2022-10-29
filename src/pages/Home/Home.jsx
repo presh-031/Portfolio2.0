@@ -1,62 +1,37 @@
 import { Link } from "react-router-dom";
-import { BsGithub, BsTwitter } from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
 
+import Unique from "../../assets/031.png";
+import FooterLinks from "../../components/FooterLinks/FooterLinks";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <>
-      {" "}
-      <div class="overall">
-        <section>
-          <h1 class="hello">&#60; Hello, I'm / &#62;</h1>
-          <ul class="intro">
-            <li class="intro__name">
-              Akingbulugbe <span class="underlined">Precious</span>
+    <div class="home-page">
+      <div className="main">
+        <section className="intro">
+          <p class="intro__name">Akingbulugbe Precious.</p>
+          <p class="intro__role">Fullstack Developer.</p>
+          <p class="intro__role">Builder.</p>
+        </section>
+
+        <ul class="homepage-links">
+          <div>
+            <li>
+              <Link to="/about">About</Link>
             </li>
-            <li class="intro__role">Frontend Developer</li>
-          </ul>
-          <ul class="homepage-links">
-            <div>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/projects">Projects</Link>
-              </li>
-            </div>
-            <div>
-              <li>
-                <Link to="/resume">Resume</Link>
-              </li>
-            </div>
-          </ul>
-        </section>
-        {/* <!-- Footer-Links section --> */}
-        <section class="links homepage-footer-links">
-          <div>
-            <BsGithub className="footer-link" />
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
           </div>
           <div>
-            <AiOutlineMail className="footer-link" />
+            <li>
+              <Link to="/resume">Resume</Link>
+            </li>
           </div>
-          <div>
-            <BsTwitter className="footer-link" />
-          </div>
-        </section>
+        </ul>
       </div>
-      {/* // <!-- Footer, attribution --> */}
-      <footer class="main-footer">
-        <p>
-          Inspired by{" "}
-          <a href="https://www.rlmoser.com" target="_blank" rel="noreferrer">
-            Rachel Moser
-          </a>{" "}
-          - with permission.
-        </p>
-      </footer>
-    </>
+      <FooterLinks />
+    </div>
   );
 };
 

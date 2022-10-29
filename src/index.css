@@ -22,4 +22,12 @@ html {
 body {
   font-family: var(--poppins);
   /* color: var(--light); */
+  /* // footer support */
+  /* margin-bottom: 100px;
+
+html {
+  /* // footer support */
+  /* position: relative;
+  min-height: 100%;
+} */
 }

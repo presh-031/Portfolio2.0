@@ -11,9 +11,6 @@ const Navbar2 = () => {
       <nav>
         <div class=" nav-container">
           <Hamburger toggled={isOpen} toggle={setOpen} label="menu" hideOutline={true} />
-          <div class="logo">
-            <h1>[# 031]</h1>
-          </div>
         </div>
         {isOpen && (
           <div class="menu-items">

@@ -9,6 +9,7 @@ import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Contact/Contact";
+import FooterLinks from "./components/FooterLinks/FooterLinks";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </BrowserRouter>
+      {/* <FooterLinks /> */}
     </div>
   );
 }
