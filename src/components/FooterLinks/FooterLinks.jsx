@@ -16,7 +16,6 @@ const FooterLinks = () => {
           <BsTwitter className="footer-link" />
         </div>
       </section>
-      <footer class="main-footer"></footer>
     </>
   );
 };
