@@ -1,3 +1,5 @@
+.homepage-nav {
+}
 .home-page {
   /* height: calc(100vh - 62px); */
 
@@ -65,4 +67,9 @@
 .footer-links {
   /* position: absolute; */
   /* bottom: 0; */
+}
+@media (min-width: 800px) {
+  .homepage-nav {
+    display: none;
+  }
 }
