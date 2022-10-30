@@ -10,6 +10,7 @@ import Projects from "./pages/Projects/Projects";
 import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Contact/Contact";
 import FooterLinks from "./components/FooterLinks/FooterLinks";
+import NavBar4 from "./components/Navbar4/Navbar4";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <BrowserRouter>
         {/* <Navbar /> */}
         {/* <Navbar2 /> */}
-        <Navbar3 />
+        {/* <Navbar3 /> */}
+        <NavBar4 />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>

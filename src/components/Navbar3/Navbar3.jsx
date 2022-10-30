@@ -10,63 +10,57 @@ const Navbar2 = () => {
     <header>
       <nav>
         <div class=" nav-container">
-          <Hamburger toggled={isOpen} toggle={setOpen} label="menu" hideOutline={true} />
+          <Hamburger toggled={isOpen} size={40} toggle={setOpen} label="menu" hideOutline={true} />
         </div>
-        {isOpen && (
-          <div class="menu-items">
-            <li>
-              <NavLink
-                to="/"
-                onClick={() => {
-                  setOpen(false);
-                }}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/about"
-                onClick={() => {
-                  setOpen(false);
-                }}
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/projects"
-                onClick={() => {
-                  setOpen(false);
-                }}
-              >
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/resume"
-                onClick={() => {
-                  setOpen(false);
-                }}
-              >
-                Resume
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/contact"
-                onClick={() => {
-                  setOpen(false);
-                }}
-              >
-                Contact
-              </NavLink>
-            </li>
-          </div>
-        )}
       </nav>
+      {/* {isOpen &&  */}
+      <div class="menu-items">
+        <NavLink
+          to="/"
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
+          Home
+        </NavLink>
+
+        <NavLink
+          to="/about"
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
+          About
+        </NavLink>
+
+        <NavLink
+          to="/projects"
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
+          Projects
+        </NavLink>
+
+        <NavLink
+          to="/resume"
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
+          Resume
+        </NavLink>
+
+        <NavLink
+          to="/contact"
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
+          Contact
+        </NavLink>
+      </div>
+      {/* } */}
     </header>
   );
 };
