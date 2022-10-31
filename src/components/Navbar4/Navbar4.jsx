@@ -38,12 +38,23 @@ function NavBar4() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/projects"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Blog
+                Projects
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/resume"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Resume
               </NavLink>
             </li>
             <li className="nav-item">
@@ -54,7 +65,7 @@ function NavBar4() {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Contact Us
+                Contact
               </NavLink>
             </li>
           </ul>

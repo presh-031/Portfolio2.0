@@ -1,12 +1,40 @@
 .projects-page {
   background-color: #ccc;
+  padding-top: 80px;
+}
+.projects-page-nav-container {
+  /* outline: 1px solid red; */
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.page-title {
+  /* outline: 1px solid red; */
+  background-color: #333;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-title p {
+  font-size: 2rem;
+  color: #63cfde;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  outline: 1px solid red;
+}
+.page-title p span {
+  color: #ccc;
+  font-size: 4rem;
+  outline: 1px solid red;
 }
 .projects {
   display: grid;
   grid-template-columns: 1fr;
   min-height: calc(100vh - 100px);
   width: fit-content;
-  /* outline: 1px solid red; */
   margin: 0 auto;
   gap: 2rem;
   padding: 2rem;
@@ -19,7 +47,6 @@
   width: 25rem;
   height: 25rem;
   font-size: 2rem;
-  /* outline: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,22 +58,24 @@
 .project-card:hover {
   transform: scale(1.09);
 }
+
+.project-card p:first-child {
+  color: #63cfde;
+}
+
+.project-card p:nth-of-type(2) {
+  font-family: cursive;
+}
 .project-links {
   text-align: center;
-  /* margin-top: 2rem; */
   display: flex;
   justify-content: space-between;
-  /* outline: 1px solid red; */
 }
 .project-links a {
   display: block;
   text-decoration: none;
-  /* font-size: 1.8rem; */
   cursor: pointer;
   font-size: 1rem;
-
-  /* border-radius: 10px; */
-  /* margin: 0 0.4rem; */
 }
 
 .project-links a:first-of-type {

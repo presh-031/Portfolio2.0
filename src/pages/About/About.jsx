@@ -6,7 +6,7 @@ const About = () => {
     <div className="about-page">
       <div className="about-page-main">
         <p>
-          I am a self-motivated fullstack developer currently working with web technologies such as{" "}
+          I am a self-motivated frontend-inclined FULLSTACK developer currently working with web technologies such as{" "}
           <span>Javascript</span>, <span>React</span>, <span>Node</span>, <span>Express</span>.
         </p>
         <p>
