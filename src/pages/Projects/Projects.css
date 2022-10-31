@@ -13,10 +13,10 @@
   height: 100%;
   object-fit: cover;
   /* border-radius: 10px; */
-  transition: transform 0.3s ease-in-out;
+  /* transition: transform 0.3s ease-in-out; */
 }
 .project img:hover {
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
 }
 
 .description {
@@ -102,6 +102,11 @@
   .project > div:first-of-type {
     width: 100%;
     padding: 0;
+    outline: 1px solid red;
+  }
+  .project img {
+    height: 30rem;
+    width: 40rem;
     outline: 1px solid red;
   }
   .project:nth-of-type(even) {
