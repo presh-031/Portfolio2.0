@@ -1,5 +1,13 @@
 import FooterLinks from "../../components/FooterLinks/FooterLinks";
 
+import ipTracker from "../../assets/ip-tracker.jpg";
+import sunnyside from "../../assets/sunnyside.jpg";
+import weather from "../../assets/weather.jpg";
+import edie from "../../assets/edie.jpg";
+import rps from "../../assets/rps.jpg";
+import tipCalc from "../../assets/tip-calc.jpg";
+import advice from "../../assets/advice.jpg";
+
 import "./Projects.css";
 const Projects = () => {
   return (
@@ -7,7 +15,7 @@ const Projects = () => {
       {/* <!-- 1. IP Tracker Project --> */}
       <div class="project">
         <div>
-          <img src="./assets/Screen Shot 2022-09-09 at 16.42.26-fullpage.png" alt="ip-tracker" />
+          <img src={ipTracker} alt="ip-tracker" />
         </div>
         <div class="description">
           <p class="title">IP Address Tracker App</p>
@@ -54,7 +62,7 @@ const Projects = () => {
       {/* <!-- 2.Sunnyside Landing Page --> */}
       <div class="project" data-aos="fade-right">
         <div>
-          <img src="./assets/localhost_3000_ (2).png" />
+          <img src={sunnyside} />
         </div>
         <div class="description">
           <p class="title">Sunnyside Landing Page</p>
@@ -92,7 +100,7 @@ const Projects = () => {
       {/* <!-- 3.Weather App Project --> */}
       <div class="project" data-aos="fade-left">
         <div>
-          <img src="./assets/Screen Shot 2022-09-17 at 22.02.26-fullpage.png" />
+          <img src={weather} />
         </div>
         <div class="description">
           <p class="title">Simple Weather App</p>
@@ -137,7 +145,7 @@ const Projects = () => {
       {/* <!-- 4.Edie Homepage --> */}
       <div class="project" data-aos="fade-right">
         <div>
-          <img src="./assets/_C__Users_HP_Desktop_devchallenges_done_edie-homepage-master_index.html.png" />
+          <img src={edie} />
         </div>
         <div class="description">
           <p class="title">Edie Homepage</p>
@@ -185,7 +193,7 @@ const Projects = () => {
       {/* <!-- 4.Rock-Paper-Scissors --> */}
       <div class="project" data-aos="fade-left">
         <div>
-          <img src="./assets/Screen Shot 2022-09-06 at 10.25.56-fullpage.png" />
+          <img src={rps} />
         </div>
         <div class="description">
           <p class="title">Rock-Paper-Scissors game</p>
@@ -231,7 +239,7 @@ const Projects = () => {
       {/* <!-- 5.Tip Calculator --> */}
       <div class="project" data-aos="fade-right">
         <div>
-          <img src="./assets/Screen Shot 2022-09-15 at 14.52.50-fullpage.png" />
+          <img src={tipCalc} />
         </div>
         <div class="description">
           <p class="title">Tip-Calculator and Bill-Splitter App</p>
@@ -276,7 +284,7 @@ const Projects = () => {
       {/* <!-- 6.Random Advice Generator. --> */}
       <div class="project" data-aos="fade-left">
         <div>
-          <img src="./assets/_C__Users_HP_Desktop_frontendmentor_done_advice-generator-app-main_index.html.png" />
+          <img src={advice} />
         </div>
         <div class="description">
           <p class="title">Random Advice Generator App</p>

@@ -1,21 +1,29 @@
 .about-page {
-  /* margin: 2rem;
-  padding: 2rem; */
-  /* outline: 1px solid red; */
+  height: 100vh;
+  overflow: auto;
+  /* border: 1px solid red; */
+}
+
+.about-page-main {
+  margin: 0rem 2rem 0 2rem;
+  padding: 2rem;
+  /* border: 1px solid red; */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   font-size: 2rem;
+  height: calc(100vh - 100px);
+  overflow: auto;
 }
-.about-page p {
+.about-page-main p {
   margin-bottom: 2rem;
 }
-.about-page p span {
+.about-page-main p span {
   font-weight: 600;
 }
-.about-page ul {
+.about-page-main ul {
   list-style-type: "💻";
   list-style-position: inside;
 }
-.about-page ul li {
+.about-page-main ul li {
   /* outline: 1px solid red; */
   /* display: flex;
   align-items: center; */
