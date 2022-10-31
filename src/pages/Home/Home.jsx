@@ -34,8 +34,8 @@ const Home = () => {
             </div>
           </ul>
         </div>
-        <FooterLinks />
       </div>
+      <FooterLinks />
     </>
   );
 };

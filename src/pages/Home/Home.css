@@ -1,17 +1,20 @@
 .homepage-nav {
 }
 .home-page {
-  /* height: calc(100vh - 62px); */
+  min-height: calc(100vh - 180px);
 
-  background-color: #ccc;
-  color: #333;
-  min-height: 100vh;
-  /* border: 10px solid red; */
+  background-color: #333;
+  color: #ccc;
+  /* min-height: 100vh; */
+
+  /* border: 1px solid red; */
+  display: grid;
+  place-items: center;
   /* position: relative; */
 }
 .main {
-  /* border: 10px solid red; */
-  min-height: calc(100vh - 62px);
+  /* border: 1px solid red; */
+  /* min-height: calc(100vh - 62px); */
 }
 .intro {
   padding: 2rem;
@@ -22,10 +25,13 @@
   font-size: 4rem;
   margin-bottom: 1.8rem;
   font-weight: 600;
+  color: #63cfde;
 }
 .intro__role {
   font-size: 2.8rem;
   margin-bottom: 1.8rem;
+  font-weight: 200;
+  color: #63cfde;
 }
 
 .homepage-links {
@@ -34,7 +40,7 @@
   padding: 8rem 0;
   /* margin-bottom: 8rem; */
   column-gap: 2rem;
-  font-size: 1.8rem;
+
   list-style-type: none;
   /* outline: 1px solid red; */
 }
@@ -56,12 +62,11 @@
 .homepage-links div li a {
   text-align: center;
   width: 120px;
+  font-size: 2.5rem;
   display: block;
   padding: 0.8rem 0;
   color: inherit;
   text-decoration: none;
-  font-size: 2rem;
-  font-weight: 600;
 }
 
 .footer-links {
@@ -69,7 +74,13 @@
   /* bottom: 0; */
 }
 @media (min-width: 800px) {
+  .home-page {
+    min-height: calc(100vh - 100px);
+  }
   .homepage-nav {
     display: none;
+  }
+  .homepage-links {
+    flex-direction: row;
   }
 }

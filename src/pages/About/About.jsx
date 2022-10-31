@@ -1,3 +1,5 @@
+import FooterLinks from "../../components/FooterLinks/FooterLinks";
+
 import "./About.css";
 const About = () => {
   return (
@@ -42,6 +44,7 @@ const About = () => {
           fact, keeps me going, as a developer.
         </p>
       </p>
+      <FooterLinks />
     </div>
   );
 };
