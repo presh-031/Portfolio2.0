@@ -28,9 +28,7 @@ const Projects2 = () => {
         <div className="project-card">
           {/* <div> */}
           <p>World Countries</p>
-          <p>
-            Rest countries info app built with Javascript, SCSS, CSS custom properties, Flexbox, Grid, semantic HTML.
-          </p>
+          <p>Rest countries app built with Javascript, SCSS, CSS custom properties, Grid, semantic HTML.</p>
           {/* </div> */}
           <div class="project-links">
             <a href="">Demo</a>
@@ -85,7 +83,7 @@ const Projects2 = () => {
         <div className="project-card">
           {/* <div> */}
           <p>Quotes Generator</p>
-          <p>Famous quotes app built with React, React Hooks, API, Axios, CSS, LocalStorage, and React-icons.</p>
+          <p>Famous quotes app built with React, API, Axios, CSS, LocalStorage, and React-icons.</p>
           {/* </div> */}
           <div class="project-links">
             <a href="">Demo</a>

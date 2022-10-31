@@ -1,7 +1,7 @@
 .about-page {
-  height: 100vh;
-  overflow: auto;
   /* border: 1px solid red; */
+  padding-top: 80px;
+  color: #555;
 }
 
 .about-page-nav-container {
@@ -39,8 +39,7 @@
   /* border: 1px solid red; */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   font-size: 2rem;
-  height: calc(100vh - 100px);
-  overflow: auto;
+  margin: 2rem;
 }
 .about-page-main p {
   margin-bottom: 2rem;
@@ -49,11 +48,15 @@
   font-weight: 600;
 }
 .about-page-main ul {
-  list-style-type: "💻";
+  list-style: none;
   list-style-position: inside;
 }
 .about-page-main ul li {
   /* outline: 1px solid red; */
   /* display: flex;
   align-items: center; */
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  text-decoration-thickness: 0.4rem;
+  text-decoration-color: #63cfde;
 }

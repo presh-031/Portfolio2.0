@@ -57,17 +57,6 @@ function NavBar4() {
                 Resume
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Contact
-              </NavLink>
-            </li>
           </ul>
         </div>
       </nav>
