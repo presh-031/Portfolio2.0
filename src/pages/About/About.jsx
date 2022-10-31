@@ -56,6 +56,9 @@ const About = () => {
           </p>
         </p>
       </div>
+      <div>
+        <img src="" alt="personality-img" />
+      </div>
       <FooterLinks />
     </div>
   );
