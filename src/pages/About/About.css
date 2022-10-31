@@ -4,6 +4,35 @@
   /* border: 1px solid red; */
 }
 
+.about-page-nav-container {
+  /* outline: 1px solid red; */
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.page-title {
+  /* outline: 1px solid red; */
+  background-color: #333;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-title p {
+  font-size: 2rem;
+  color: #63cfde;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  /* outline: 1px solid red; */
+}
+.page-title p span {
+  color: #ccc;
+  font-size: 4rem;
+  /* outline: 1px solid red; */
+}
+
 .about-page-main {
   margin: 0rem 2rem 0 2rem;
   padding: 2rem;

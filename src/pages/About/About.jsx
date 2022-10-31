@@ -1,9 +1,19 @@
+import Navbar4 from "../../components/Navbar4/Navbar4";
+
 import FooterLinks from "../../components/FooterLinks/FooterLinks";
 
 import "./About.css";
 const About = () => {
   return (
     <div className="about-page">
+      <div className="about-page-nav-container">
+        <Navbar4 />
+      </div>
+      <div className="page-title">
+        <p>
+          <span>{`{`}</span> about <span>{`}`}</span>
+        </p>
+      </div>
       <div className="about-page-main">
         <p>
           I am a self-motivated frontend-inclined FULLSTACK developer currently working with web technologies such as{" "}

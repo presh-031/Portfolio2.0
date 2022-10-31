@@ -23,12 +23,12 @@
   font-family: cursive;
   display: flex;
   align-items: center;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .page-title p span {
   color: #ccc;
   font-size: 4rem;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .projects {
   display: grid;
